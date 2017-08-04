@@ -20,7 +20,7 @@ http://www.mulesoft.org/schema/mule/ee/dw http://www.mulesoft.org/schema/mule/ee
 flowVars.funds map {
 	text:  "SAINT BARTHLÉMY" as :string,
 	prize_us: "\$" ++ $ as :string,
-    prize_uk: "£" ++ $ * 0.81 as :string			
+    prize_uk: "£" ++ $ * 0.81 as :string		
 }]]></dw:set-payload>
         </dw:transform-message>
         <logger level="INFO" doc:name="Logger"/>
